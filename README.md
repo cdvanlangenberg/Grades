@@ -4,6 +4,7 @@ author: "Chris Vanlangenberg"
 
 ---
 
+
 ## Instructions
 
 Following instructions are to analyze DWF grades for following courses,
