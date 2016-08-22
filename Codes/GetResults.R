@@ -7,5 +7,5 @@ source("GradesOverall.R")
 
 setwd(cwd)
 
-rm(list=ls())
+rm(list = ls())
 gc()
