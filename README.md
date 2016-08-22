@@ -1,12 +1,8 @@
 ---
 title: "Generating DWF grades"
 author: "Chris Vanlangenberg"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+---
 
 ## Instructions
 
@@ -63,9 +59,3 @@ If everything works fine (hopefully) following outputs will be created,
 4. It was assumed that column names will not be changed over time if so you may have to rename it as per the codes (it might be a major modification to the codes). 
 
 
-
-# Grades
-
-Follow the following steps to generate DWF grades 
-- step 1
-- step 2 
