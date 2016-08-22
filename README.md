@@ -1,6 +1,5 @@
 ---
 # Generating DWF grades
-### Chris Vanlangenberg
 ---
 
 ## Instructions
