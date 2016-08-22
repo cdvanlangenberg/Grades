@@ -16,7 +16,7 @@ Following instructions are to analyze DWF grades for following courses,
 * MAT 191
 * STA 108
 
-offered by UNCG Mathematics and Statistics for the past 9 months starting form previous semester (or same semster if the analysis was carried out at the end of current semester). All required codes are available on [github](https://github.com/cdvanlangenberg/Grades).
+offered by UNCG Mathematics and Statistics for the past 9 months starting form previous semester (or same semester if the analysis was carried out at the end of current semester). All required codes are available on [github](https://github.com/cdvanlangenberg/Grades).
 
 Follow the following steps to generate DWF grades for above courses: 
 
@@ -31,12 +31,12 @@ Follow the following steps to generate DWF grades for above courses:
 
 * step 3: go to R/RStudio 
     + open GetResults.R 
-    + excute the obove code, (it will ask for a file location, then select the data file)    
+    + execute the above code, (it will ask for a file location, then select the data file)    
 
 If everything works fine (hopefully) following outputs will be created,
 
 * AdjGrades.csv
-    + excel file with row data summerized at A, B, C, D, F, WF, W
+    + excel file with row data summarized at A, B, C, D, F, WF, W
     
 * overall.pdf
     + overall grade distribution for all courses by semester
