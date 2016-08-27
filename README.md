@@ -15,7 +15,7 @@ Following instructions are to analyze DWF grades for following courses,
 * MAT 191
 * STA 108
 
-offered by UNCG Mathematics and Statistics for the past 9 months starting form previous semester (or same semester if the analysis was carried out at the end of current semester). All required codes are available on [github](https://github.com/cdvanlangenberg/Grades).
+offered by UNCG Mathematics and Statistics for the past 9 semesters starting form previous semester (or same semester if the analysis was carried out at the end of current semester). All required codes are available on [github](https://github.com/cdvanlangenberg/Grades).
 
 Follow the following steps to generate DWF grades for above courses: 
 
