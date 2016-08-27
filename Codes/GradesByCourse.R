@@ -176,9 +176,11 @@ for (kk in 1:length(class)) {
   DFW_M_P = data.frame(cbind(DFW_M_T, DFW_ = round(100 * (
     DFW_M_T[, 4] / DFW_M_T[, 3]
   ), digits = 2)))
-  Method = levels(AdjGrades$SCHEDULE)
   
-  #c("LEC", "WEB", "WLL", "WTX")
+  # Method = levels(AdjGrades$SCHEDULE) ## use this if levels changed in the future
+  
+  Method = c("LEC", "WEB", "WLL", "WTX")
+  
   par(mfrow = c(2, 2))
   for (jj in 1:4) {
     MData = subset(DFW_M_P, DFW_M_P$SCHEDULE == Method[jj])
@@ -210,5 +212,5 @@ for (kk in 1:length(class)) {
   dev.off()
 }
 
-#rm(list=ls())
-#gc()
+rm(list=ls())
+gc()
