@@ -4,6 +4,8 @@
 
 ## Instructions
 
+***
+
 Following instructions are to analyze DWF grades for following courses,
 
 * MAT 112
@@ -19,25 +21,26 @@ offered by UNCG Mathematics and Statistics for the past 9 semesters starting for
 
 Follow the following steps to generate DWF grades for above courses: 
 
-*  step1: Download the following **R** codes to a local folder in your desktop/laptop,
 
-1. GetResults.R
-2. GradesByCourse.R
-3. GradesOverall.R
+*  step1: Download the following `R` codes to a local folder in your desktop/laptop,
 
-* step 2: get the new data file (it will be a ".accdb" access file) and 
-    + save it as **GradesDistributions.accdb** in the same folder with R codes
+1. `GetResults.R`
+2. `GradesByCourse.R`
+3. `GradesOverall.R`
+
+* step 2: get the new data file (it will be a `.accdb` access file) and 
+    + save it as `GradesDistributions.accdb` in the same folder with R codes
 
 * step 3: go to R/RStudio 
-    + open GetResults.R 
+    + open `GetResults.R` 
     + execute the above code, (it will ask for a file location, then select the data file)    
 
 If everything works fine (hopefully) following outputs will be created,
 
-* AdjGrades.csv
+* Data: `AdjGrades.csv`
     + excel file with row data summarized at A, B, C, D, F, WF, W
     
-* overall.pdf
+* Result: `overall.pdf`
     + overall grade distribution for all courses by semester
     + overall grade percentage
     + overall DWF percentage
@@ -48,13 +51,15 @@ If everything works fine (hopefully) following outputs will be created,
     + grade distribution
     + DWF percentage by delivery method
 
+***
 
 ### Common issue and fixes
 
-1. The data will be in **".accdb"** format, only 32 bit version of **R** (in RStudio this can be changed from Global setting and will have to restart **R**) will work for the above codes.
-2. If the data format was changes then code **GradesByCourse.R** line 15 may have to be changed accordingly (also the new packages if any). 
+***
+
+1. The data will be in `.accdb` format, only 32 bit version of `R` (in RStudio this can be changed from Global setting and will have to restart `R`) will work for the above codes.
+2. If the data format was changes then code `GradesByCourse.R` line 15 may have to be changed accordingly (also the new packages if any). 
 3. If you are using a Microsoft Office version of 2010 or later, please install [2007 Office System Driver](https://www.microsoft.com/en-us/download/details.aspx?id=23734).
 4. It was assumed that column names will not be changed over time if so you may have to rename it as per the codes (it might be a major modification to the codes). 
 
-
-
+***
